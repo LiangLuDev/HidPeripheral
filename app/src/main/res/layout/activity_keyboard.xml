@@ -1,0 +1,1442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/keysButtons"
+        android:textAlignment="center">
+
+        <Button
+            android:id="@+id/Esc"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="41"
+            android:text="Esc"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/F1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/F1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="58"
+            android:text="F1"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/Esc"
+            app:layout_constraintRight_toLeftOf="@+id/F2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/F2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="59"
+            android:text="F2"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/F1"
+            app:layout_constraintRight_toLeftOf="@+id/F3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/F3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="60"
+            android:text="F3"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/F2"
+            app:layout_constraintRight_toLeftOf="@+id/F4"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/F4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="61"
+            android:text="F4"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/F3"
+            app:layout_constraintRight_toLeftOf="@+id/F5"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/F5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="62"
+            android:text="F5"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/F4"
+            app:layout_constraintRight_toLeftOf="@+id/F6"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/F6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="63"
+            android:text="F6"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/F5"
+            app:layout_constraintRight_toLeftOf="@+id/F7"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/F7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="64"
+            android:text="F7"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/F6"
+            app:layout_constraintRight_toLeftOf="@+id/F8"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/F8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="65"
+            android:text="F8"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/F7"
+            app:layout_constraintRight_toLeftOf="@+id/F9"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/F9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="66"
+            android:text="F9"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/F8"
+            app:layout_constraintRight_toLeftOf="@+id/F10"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/F10"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="67"
+            android:text="F10"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/F9"
+            app:layout_constraintRight_toLeftOf="@+id/F11"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/F11"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="68"
+            android:text="F11"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/F10"
+            app:layout_constraintRight_toLeftOf="@+id/F12"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/F12"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="69"
+            android:text="F12"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/F11"
+            app:layout_constraintRight_toLeftOf="@+id/del"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/del"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="76"
+            android:text="Del"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/F12"
+            app:layout_constraintRight_toLeftOf="@+id/end"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/end"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="77"
+            android:text="End"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/del"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/num0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="53"
+            android:text="`  ~"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@id/num1"
+            app:layout_constraintTop_toBottomOf="@id/Esc" />
+
+        <Button
+            android:id="@+id/num1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="30"
+            android:text="1 !"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@id/num0"
+            app:layout_constraintRight_toLeftOf="@id/num2"
+            app:layout_constraintTop_toTopOf="@+id/num0" />
+
+        <Button
+            android:id="@+id/num2"
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="31"
+            android:text="2 @"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/num1"
+            app:layout_constraintRight_toLeftOf="@+id/num3"
+            app:layout_constraintTop_toTopOf="@+id/num0" />
+
+        <Button
+            android:id="@+id/num3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="32"
+            android:text="3 #"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/num2"
+            app:layout_constraintRight_toLeftOf="@+id/num4"
+            app:layout_constraintTop_toTopOf="@+id/num0" />
+
+        <Button
+            android:id="@+id/num4"
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="33"
+            android:text="4 $"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/num3"
+            app:layout_constraintRight_toLeftOf="@+id/num5"
+            app:layout_constraintTop_toTopOf="@+id/num0" />
+
+        <Button
+            android:id="@+id/num5"
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="34"
+            android:text="5 %"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/num4"
+            app:layout_constraintRight_toLeftOf="@+id/num6"
+            app:layout_constraintTop_toTopOf="@+id/num0" />
+
+        <Button
+            android:id="@+id/num6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="35"
+            android:text="6 ^"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/num5"
+            app:layout_constraintRight_toLeftOf="@+id/num7"
+            app:layout_constraintTop_toTopOf="@+id/num0" />
+
+        <Button
+            android:id="@+id/num7"
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="36"
+            android:text="7 &#038;"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/num6"
+            app:layout_constraintRight_toLeftOf="@+id/num8"
+            app:layout_constraintTop_toTopOf="@+id/num0" />
+
+        <Button
+            android:id="@+id/num8"
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="37"
+            android:text="8 *"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/num7"
+            app:layout_constraintRight_toLeftOf="@+id/num9"
+            app:layout_constraintTop_toTopOf="@+id/num0" />
+
+        <Button
+            android:id="@+id/num9"
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="38"
+            android:text="9 ("
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/num8"
+            app:layout_constraintRight_toLeftOf="@+id/num10"
+            app:layout_constraintTop_toTopOf="@+id/num0" />
+
+        <Button
+            android:id="@+id/num10"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="39"
+            android:text="0 )"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/num9"
+            app:layout_constraintRight_toLeftOf="@+id/num11"
+            app:layout_constraintTop_toTopOf="@+id/num0" />
+
+        <Button
+            android:id="@+id/num11"
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="45"
+            android:text="-  _"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/num10"
+            app:layout_constraintRight_toLeftOf="@+id/num12"
+            app:layout_constraintTop_toTopOf="@+id/num0" />
+
+        <Button
+            android:id="@+id/num12"
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="46"
+            android:text="=  +"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/num11"
+            app:layout_constraintRight_toLeftOf="@+id/num13"
+            app:layout_constraintTop_toTopOf="@+id/num0" />
+
+        <Button
+            android:id="@+id/num13"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="42"
+            android:text="Backspace"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="H,2:1"
+            app:layout_constraintHorizontal_weight="2"
+            app:layout_constraintLeft_toRightOf="@+id/num12"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/num0" />
+
+        <Button
+            android:id="@+id/tab"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="43"
+            android:text="Tab"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="H,2:1"
+            app:layout_constraintHorizontal_weight="2"
+            app:layout_constraintLeft_toLeftOf="@id/num0"
+            app:layout_constraintRight_toLeftOf="@id/q"
+            app:layout_constraintTop_toBottomOf="@id/num0" />
+
+        <Button
+            android:id="@+id/q"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="20"
+            android:text="Q"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/tab"
+            app:layout_constraintRight_toLeftOf="@+id/w"
+            app:layout_constraintTop_toTopOf="@+id/tab" />
+
+        <Button
+            android:id="@+id/w"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="26"
+            android:text="W"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/q"
+            app:layout_constraintRight_toLeftOf="@+id/e"
+            app:layout_constraintTop_toTopOf="@+id/tab" />
+
+        <Button
+            android:id="@+id/e"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="8"
+            android:text="E"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/w"
+            app:layout_constraintRight_toLeftOf="@+id/r"
+            app:layout_constraintTop_toTopOf="@+id/tab" />
+
+        <Button
+            android:id="@+id/r"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="21"
+            android:text="R"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/e"
+            app:layout_constraintRight_toLeftOf="@+id/t"
+            app:layout_constraintTop_toTopOf="@+id/tab" />
+
+        <Button
+            android:id="@+id/t"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="23"
+            android:text="T"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/r"
+            app:layout_constraintRight_toLeftOf="@+id/y"
+            app:layout_constraintTop_toTopOf="@+id/tab" />
+
+        <Button
+            android:id="@+id/y"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="28"
+            android:text="Y"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/t"
+            app:layout_constraintRight_toLeftOf="@+id/u"
+            app:layout_constraintTop_toTopOf="@+id/tab" />
+
+        <Button
+            android:id="@+id/u"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="24"
+            android:text="U"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/y"
+            app:layout_constraintRight_toLeftOf="@+id/i"
+            app:layout_constraintTop_toTopOf="@+id/tab" />
+
+        <Button
+            android:id="@+id/i"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="12"
+            android:text="I"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/u"
+            app:layout_constraintRight_toLeftOf="@+id/o"
+            app:layout_constraintTop_toTopOf="@+id/tab" />
+
+        <Button
+            android:id="@+id/o"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="18"
+            android:text="O"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/i"
+            app:layout_constraintRight_toLeftOf="@+id/p"
+            app:layout_constraintTop_toTopOf="@+id/tab" />
+
+        <Button
+            android:id="@+id/p"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="19"
+            android:text="P"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/o"
+            app:layout_constraintRight_toLeftOf="@+id/lk"
+            app:layout_constraintTop_toTopOf="@+id/tab" />
+
+        <Button
+            android:id="@+id/lk"
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="47"
+            android:text="[  {"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/p"
+            app:layout_constraintRight_toLeftOf="@+id/rk"
+            app:layout_constraintTop_toTopOf="@+id/tab" />
+
+        <Button
+            android:id="@+id/rk"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="48"
+            android:text="]  }"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/lk"
+            app:layout_constraintRight_toLeftOf="@+id/shuhao"
+            app:layout_constraintTop_toTopOf="@+id/tab" />
+
+        <Button
+            android:id="@+id/shuhao"
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="49"
+            android:text="/\  |"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/rk"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tab" />
+
+        <Button
+            android:id="@+id/caps"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="57"
+            android:text="Caps"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="H,2:1"
+            app:layout_constraintHorizontal_weight="2"
+            app:layout_constraintLeft_toLeftOf="@id/tab"
+            app:layout_constraintRight_toLeftOf="@id/a"
+            app:layout_constraintTop_toBottomOf="@id/tab" />
+
+        <Button
+            android:id="@+id/a"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="4"
+            android:text="A"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/caps"
+            app:layout_constraintRight_toLeftOf="@+id/s"
+            app:layout_constraintTop_toTopOf="@+id/caps" />
+
+        <Button
+            android:id="@+id/s"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="22"
+            android:text="S"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/a"
+            app:layout_constraintRight_toLeftOf="@+id/d"
+            app:layout_constraintTop_toTopOf="@+id/caps" />
+
+        <Button
+            android:id="@+id/d"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="7"
+            android:text="D"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/s"
+            app:layout_constraintRight_toLeftOf="@+id/f"
+            app:layout_constraintTop_toTopOf="@+id/caps" />
+
+        <Button
+            android:id="@+id/f"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="9"
+            android:text="F"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/d"
+            app:layout_constraintRight_toLeftOf="@+id/g"
+            app:layout_constraintTop_toTopOf="@+id/caps" />
+
+        <Button
+            android:id="@+id/g"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="10"
+            android:text="G"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/f"
+            app:layout_constraintRight_toLeftOf="@+id/h"
+            app:layout_constraintTop_toTopOf="@+id/caps" />
+
+        <Button
+            android:id="@+id/h"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="11"
+            android:text="H"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/g"
+            app:layout_constraintRight_toLeftOf="@+id/j"
+            app:layout_constraintTop_toTopOf="@+id/caps" />
+
+        <Button
+            android:id="@+id/j"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="13"
+            android:text="J"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/h"
+            app:layout_constraintRight_toLeftOf="@+id/k"
+            app:layout_constraintTop_toTopOf="@+id/caps" />
+
+        <Button
+            android:id="@+id/k"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="14"
+            android:text="K"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/j"
+            app:layout_constraintRight_toLeftOf="@+id/l"
+            app:layout_constraintTop_toTopOf="@+id/caps" />
+
+        <Button
+            android:id="@+id/l"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="15"
+            android:text="L"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/k"
+            app:layout_constraintRight_toLeftOf="@+id/fenhao"
+            app:layout_constraintTop_toTopOf="@+id/caps" />
+
+        <Button
+            android:id="@+id/fenhao"
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="51"
+            android:text=";  :"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/l"
+            app:layout_constraintRight_toLeftOf="@+id/douhao"
+            app:layout_constraintTop_toTopOf="@+id/caps" />
+
+        <Button
+            android:id="@+id/douhao"
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="52"
+            android:text="'  &quot;"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/fenhao"
+            app:layout_constraintRight_toLeftOf="@+id/enter"
+            app:layout_constraintTop_toTopOf="@+id/caps" />
+
+        <Button
+            android:id="@+id/enter"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="40"
+            android:text="Enter"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="H,2:1"
+            app:layout_constraintHorizontal_weight="2"
+            app:layout_constraintLeft_toRightOf="@+id/douhao"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/caps" />
+
+        <Button
+            android:id="@+id/shift"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="M2"
+            android:text="Shift"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="H,2:1"
+            app:layout_constraintHorizontal_weight="2"
+            app:layout_constraintLeft_toLeftOf="@id/caps"
+            app:layout_constraintRight_toLeftOf="@id/z"
+            app:layout_constraintTop_toBottomOf="@id/caps" />
+
+        <Button
+            android:id="@+id/z"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="29"
+            android:text="Z"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/shift"
+            app:layout_constraintRight_toLeftOf="@+id/x"
+            app:layout_constraintTop_toTopOf="@+id/shift" />
+
+        <Button
+            android:id="@+id/x"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="27"
+            android:text="X"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/z"
+            app:layout_constraintRight_toLeftOf="@+id/c"
+            app:layout_constraintTop_toTopOf="@+id/shift" />
+
+        <Button
+            android:id="@+id/c"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="6"
+            android:text="C"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/x"
+            app:layout_constraintRight_toLeftOf="@+id/v"
+            app:layout_constraintTop_toTopOf="@+id/shift" />
+
+        <Button
+            android:id="@+id/v"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="25"
+            android:text="V"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/c"
+            app:layout_constraintRight_toLeftOf="@+id/b"
+            app:layout_constraintTop_toTopOf="@+id/shift" />
+
+        <Button
+            android:id="@+id/b"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="5"
+            android:text="B"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/v"
+            app:layout_constraintRight_toLeftOf="@+id/n"
+            app:layout_constraintTop_toTopOf="@+id/shift" />
+
+        <Button
+            android:id="@+id/n"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="17"
+            android:text="N"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/b"
+            app:layout_constraintRight_toLeftOf="@+id/m"
+            app:layout_constraintTop_toTopOf="@+id/shift" />
+
+        <Button
+            android:id="@+id/m"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="16"
+            android:text="M"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/n"
+            app:layout_constraintRight_toLeftOf="@+id/lt"
+            app:layout_constraintTop_toTopOf="@+id/shift" />
+
+        <Button
+            android:id="@+id/lt"
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="54"
+            android:text=",  &#060;"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/m"
+            app:layout_constraintRight_toLeftOf="@+id/gt"
+            app:layout_constraintTop_toTopOf="@+id/shift" />
+
+        <Button
+            android:id="@+id/gt"
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="55"
+            android:text=".  >"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/lt"
+            app:layout_constraintRight_toLeftOf="@+id/wenhao"
+            app:layout_constraintTop_toTopOf="@+id/shift" />
+
+        <Button
+            android:id="@+id/wenhao"
+
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="56"
+            android:text="/  ?"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/gt"
+            app:layout_constraintRight_toLeftOf="@+id/rshift"
+            app:layout_constraintTop_toTopOf="@+id/shift" />
+
+        <Button
+            android:id="@+id/rshift"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="M32"
+            android:text="Shift"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="H,2:1"
+            app:layout_constraintHorizontal_weight="2"
+            app:layout_constraintLeft_toRightOf="@+id/wenhao"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/shift" />
+
+        <Button
+            android:id="@+id/ctrl"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="M1"
+            android:text="Ctrl"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="H,2:1"
+            app:layout_constraintHorizontal_weight="2"
+            app:layout_constraintLeft_toLeftOf="@id/shift"
+            app:layout_constraintRight_toLeftOf="@id/win"
+            app:layout_constraintTop_toBottomOf="@id/shift" />
+
+        <Button
+            android:id="@+id/win"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="M8"
+            android:text="Win"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/ctrl"
+            app:layout_constraintRight_toLeftOf="@+id/alt"
+            app:layout_constraintTop_toTopOf="@+id/ctrl" />
+
+        <Button
+            android:id="@+id/alt"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="M4"
+            android:text="Alt"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/win"
+            app:layout_constraintRight_toLeftOf="@+id/space"
+            app:layout_constraintTop_toTopOf="@+id/ctrl" />
+
+        <Button
+            android:id="@+id/space"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="44"
+            android:text="Space"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="H,6:1"
+            app:layout_constraintHorizontal_weight="6"
+            app:layout_constraintLeft_toRightOf="@+id/alt"
+            app:layout_constraintRight_toLeftOf="@+id/ralt"
+            app:layout_constraintTop_toTopOf="@+id/ctrl" />
+
+        <Button
+            android:id="@+id/ralt"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="M4"
+            android:text="Alt"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/space"
+            app:layout_constraintRight_toLeftOf="@+id/menu"
+            app:layout_constraintTop_toTopOf="@+id/ctrl" />
+
+        <Button
+            android:id="@+id/menu"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="101"
+            android:text="Menu"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/ralt"
+            app:layout_constraintRight_toLeftOf="@+id/prt"
+            app:layout_constraintTop_toTopOf="@+id/ctrl" />
+
+        <Button
+            android:id="@+id/prt"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="70"
+            android:text="Prt"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/menu"
+            app:layout_constraintRight_toLeftOf="@+id/rctrl"
+            app:layout_constraintTop_toTopOf="@+id/ctrl" />
+
+        <Button
+            android:id="@+id/rctrl"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="M16"
+            android:text="Ctrl"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/prt"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ctrl" />
+
+        <Button
+            android:id="@+id/ins"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="75"
+            android:text="Ins"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/up"
+            app:layout_constraintTop_toBottomOf="@+id/ctrl" />
+
+        <Button
+            android:id="@+id/up"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="82"
+            android:text="↑"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/ins"
+            app:layout_constraintRight_toLeftOf="@+id/pageup"
+            app:layout_constraintTop_toTopOf="@+id/ins" />
+
+        <Button
+            android:id="@+id/pageup"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="73"
+            android:text="PgUp"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/up"
+            app:layout_constraintRight_toLeftOf="@+id/pagedwon"
+            app:layout_constraintTop_toTopOf="@+id/ins" />
+
+        <Button
+            android:id="@+id/pagedwon"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="78"
+            android:text="PgDn"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/pageup"
+            app:layout_constraintRight_toLeftOf="@+id/home"
+            app:layout_constraintTop_toTopOf="@+id/ins" />
+
+        <Button
+            android:id="@+id/home"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="74"
+            android:text="Home"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="H,5:1"
+            app:layout_constraintHorizontal_weight="5"
+            app:layout_constraintLeft_toRightOf="@+id/pagedwon"
+            app:layout_constraintRight_toLeftOf="@+id/scrollLock"
+            app:layout_constraintTop_toTopOf="@+id/ins" />
+
+        <Button
+            android:id="@+id/scrollLock"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="71"
+            android:text="scrollLock"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/home"
+            app:layout_constraintRight_toLeftOf="@+id/pause"
+            app:layout_constraintTop_toTopOf="@+id/ins" />
+
+        <Button
+            android:id="@+id/pause"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="71"
+            android:text="Pause"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/scrollLock"
+            app:layout_constraintRight_toLeftOf="@+id/num_lock"
+            app:layout_constraintTop_toTopOf="@+id/ins" />
+
+        <Button
+            android:id="@+id/num_lock"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="83"
+            android:text="NumLock"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/pause"
+            app:layout_constraintRight_toLeftOf="@+id/num_divider"
+            app:layout_constraintTop_toTopOf="@+id/ins" />
+
+        <Button
+            android:id="@+id/num_divider"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="84"
+            android:text="/"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/num_lock"
+            app:layout_constraintRight_toLeftOf="@+id/num_multi"
+            app:layout_constraintTop_toTopOf="@+id/ins" />
+
+        <Button
+            android:id="@+id/num_multi"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="85"
+            android:text="*"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/num_divider"
+            app:layout_constraintRight_toLeftOf="@+id/num_sub"
+            app:layout_constraintTop_toTopOf="@+id/ins" />
+
+        <Button
+            android:id="@+id/num_sub"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="86"
+            android:text="-"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/num_multi"
+            app:layout_constraintRight_toLeftOf="@+id/num_add"
+            app:layout_constraintTop_toTopOf="@+id/ins" />
+
+        <Button
+            android:id="@+id/num_add"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="87"
+            android:text="+"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/num_sub"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/ins" />
+
+        <Button
+            android:id="@+id/left"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="80"
+            android:text="←"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/down"
+            app:layout_constraintTop_toBottomOf="@+id/ins" />
+
+        <Button
+            android:id="@+id/down"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="81"
+            android:text="↓"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/left"
+            app:layout_constraintRight_toLeftOf="@+id/right"
+            app:layout_constraintTop_toTopOf="@+id/left" />
+
+        <Button
+            android:id="@+id/right"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="79"
+            android:text="→"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/down"
+            app:layout_constraintRight_toLeftOf="@+id/num_one"
+            app:layout_constraintTop_toTopOf="@+id/left" />
+
+        <Button
+            android:id="@+id/num_one"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="89"
+            android:text="1 End"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/right"
+            app:layout_constraintRight_toLeftOf="@+id/num_two"
+            app:layout_constraintTop_toTopOf="@+id/left" />
+
+        <Button
+            android:id="@+id/num_two"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="90"
+            android:text="2 ↓"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/num_one"
+            app:layout_constraintRight_toLeftOf="@+id/num_three"
+            app:layout_constraintTop_toTopOf="@+id/left" />
+
+        <Button
+            android:id="@+id/num_three"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="91"
+            android:text="3 ↓"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/num_two"
+            app:layout_constraintRight_toLeftOf="@+id/num_four"
+            app:layout_constraintTop_toTopOf="@+id/left" />
+
+        <Button
+            android:id="@+id/num_four"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="93"
+            android:text="4 ←"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/num_three"
+            app:layout_constraintRight_toLeftOf="@+id/num_five"
+            app:layout_constraintTop_toTopOf="@+id/left" />
+
+        <Button
+            android:id="@+id/num_five"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="93"
+            android:text="5"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/num_four"
+            app:layout_constraintRight_toLeftOf="@+id/num_six"
+            app:layout_constraintTop_toTopOf="@+id/left" />
+
+        <Button
+            android:id="@+id/num_six"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="94"
+            android:text="6 →"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/num_five"
+            app:layout_constraintRight_toLeftOf="@+id/num_seven"
+            app:layout_constraintTop_toTopOf="@+id/left" />
+
+        <Button
+            android:id="@+id/num_seven"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="95"
+            android:text="7 Home"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/num_six"
+            app:layout_constraintRight_toLeftOf="@+id/num_eight"
+            app:layout_constraintTop_toTopOf="@+id/left" />
+
+        <Button
+            android:id="@+id/num_eight"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="96"
+            android:text="8 ↑"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/num_seven"
+            app:layout_constraintRight_toLeftOf="@+id/num_nine"
+            app:layout_constraintTop_toTopOf="@+id/left" />
+
+        <Button
+            android:id="@+id/num_nine"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="97"
+            android:text="9 Pgup"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="1:1"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintLeft_toRightOf="@+id/num_eight"
+            app:layout_constraintRight_toLeftOf="@+id/num_enter"
+            app:layout_constraintTop_toTopOf="@+id/left" />
+
+        <Button
+            android:id="@+id/num_enter"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:tag="88"
+            android:text="Enter"
+            android:textAllCaps="false"
+            android:textSize="10dp"
+            app:layout_constraintDimensionRatio="H,4:1"
+            app:layout_constraintHorizontal_weight="4"
+            app:layout_constraintLeft_toRightOf="@+id/num_nine"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/left" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

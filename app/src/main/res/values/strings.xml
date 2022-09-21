@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HidPeripheral</string>
+    <string name="ununited">The device is not connected「Click "START" button open bluetooth broadcast service」</string>
+    <string name="connected">The device is connected</string>
+    <string name="mouse_left">LEFT</string>
+    <string name="mouse_right">RIGHT</string>
+    <string name="mouse_middle">MIDDLE</string>
+    <string name="mouse_move_area">MOVE AREA</string>
+    <string name="toast_bluetooth_on">Bluetooth is on.</string>
+    <string name="toast_bluetooth_off">Bluetooth is off.</string>
+    <string name="toast_permission">Please enable the permission.</string>
+</resources>
