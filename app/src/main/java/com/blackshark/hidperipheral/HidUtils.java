@@ -12,7 +12,7 @@ import android.util.Log;
 import java.util.concurrent.Executors;
 
 public class HidUtils {
-    public static final String TAG = "Hid-HidUitls";
+    public static final String TAG = "Hid-Utils";
     public static boolean _connected = false;
     public static boolean isRegister = false;
     public static ConnectionStateChangeListener connectionStateChangeListener;
