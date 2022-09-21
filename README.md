@@ -13,7 +13,6 @@ mHidDevice.registerApp(sdp, null, null, Executors.newCachedThreadPool(), mCallba
 ```
 
 ### iOS Device(Need to open the AssistiveTouch)
-**How to open AssistiveTouch?**
 System Setting -> Accessibility -> Touch -> AssistiveTouch
 
 ### Screenshots
