@@ -17,5 +17,5 @@ mHidDevice.registerApp(sdp, null, null, Executors.newCachedThreadPool(), mCallba
 System Setting -> Accessibility -> Touch -> AssistiveTouch
 
 ### Screenshots
-![Mouse](screentshots/mouse.jpg)
-![Keyboard](screentshots/keyboard.jpg)
+![Mouse](screentshots/Mouse.png)
+![Keyboard](screentshots/Keyboard.png)
