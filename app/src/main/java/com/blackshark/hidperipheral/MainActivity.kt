@@ -5,6 +5,7 @@ import android.app.Activity
 import android.bluetooth.BluetoothAdapter
 import android.content.Intent
 import android.content.pm.PackageManager
+import android.os.Build
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.result.contract.ActivityResultContracts
@@ -49,7 +50,7 @@ class MainActivity : AppCompatActivity(), HidUtils.ConnectionStateChangeListener
         setContentView(binding.root)
 
         binding.btnStart.setOnClickListener {
-            if (!hasPermission(Manifest.permission.BLUETOOTH_CONNECT)) {
+            if (Build.VERSION.SDK_INT >= 31 && !hasPermission(Manifest.permission.BLUETOOTH_CONNECT)) {
                 connectPermission.launch(Manifest.permission.BLUETOOTH_CONNECT)
                 return@setOnClickListener
             }
@@ -83,7 +84,7 @@ class MainActivity : AppCompatActivity(), HidUtils.ConnectionStateChangeListener
     }
 
     override fun onConnected() {
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.BLUETOOTH_CONNECT) != PackageManager.PERMISSION_GRANTED) {
+        if (Build.VERSION.SDK_INT >= 31 && ActivityCompat.checkSelfPermission(this, Manifest.permission.BLUETOOTH_CONNECT) != PackageManager.PERMISSION_GRANTED) {
             return
         }
 
