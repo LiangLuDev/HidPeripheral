@@ -21,5 +21,6 @@ System Setting -> Accessibility -> Touch -> AssistiveTouch
 
 ### Notice
 In the process of my use, I found that there are some models cannot connect properly, and this situation needs to modify the corresponding configuration file in the Android system diagram.
+
 ![Mouse](screentshots/Notice.png)
 
